@@ -10,4 +10,6 @@ public class Car {
 	public boolean daljinskoZakljucavanje;
 	
 	
+	
+	
 }
