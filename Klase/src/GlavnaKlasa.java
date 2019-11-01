@@ -29,17 +29,24 @@ public class GlavnaKlasa {
   
   
   */
-		
+	/*	
 		
 	double x = Alat.kvadratBroja(7);
 	System.out.println(x);
 	
 	
+		*/
+		
+		Drzava drzava = new Drzava();
 		
 		
+		drzava.setImeDrzave("Srbija");
+		drzava.setBrojStanovnika(7000000);
+		drzava.setPovrsina(100000.98);
 		
-		
-		
+		System.out.println("Ime drzave je: " + drzava.getImeDrzave());
+		System.out.println("Broj stanovnika je: " + drzava.getBrojStanovnika());
+		System.out.println("Povrsina drzave je: " + drzava.getPovrsina() + " km kvadratnih");
 		
 		
 		
