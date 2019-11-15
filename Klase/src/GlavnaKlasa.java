@@ -37,7 +37,7 @@ public class GlavnaKlasa {
 	
 		*/
 		
-		Drzava drzava = new Drzava();
+		/*Drzava drzava = new Drzava();
 		
 		
 		drzava.setImeDrzave("Srbija");
@@ -48,10 +48,19 @@ public class GlavnaKlasa {
 		System.out.println("Broj stanovnika je: " + drzava.getBrojStanovnika());
 		System.out.println("Povrsina drzave je: " + drzava.getPovrsina() + " km kvadratnih");
 		
+		*/
 		
 		
+		String ime = "Pera";
+		String name = "Pera";
 		
+		String nome = new String("Pera");
 		
+		if(ime.equals(nome)) {
+			System.out.println("ISTI");
+		}else {
+			System.out.println("NISU");
+		}
 		
 		
 		
